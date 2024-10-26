@@ -14,7 +14,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const user = AuthService.login(email, password);
-      // login(user);
+   
       navigate('/dashboard');
     } catch (err) {
       setError(err.message);

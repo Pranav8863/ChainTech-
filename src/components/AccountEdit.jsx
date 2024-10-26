@@ -2,8 +2,7 @@ import React, { useState, useContext } from 'react';
 import { AuthContext } from '../context/AuthContext';
 
 const AccountEdit = () => {
-  // const { user, login } = useContext(AuthContext);
-  // const [email, setEmail] = useState(user?.email || '');
+
 
   const handleSubmit = (e) => {
     e.preventDefault();
